@@ -1,0 +1,494 @@
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+
+body{
+
+  background: #ffd1b3 !important;
+  
+}
+ /* This is background without image */
+
+h1{
+  font-family: 'BenchNine', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+
+}
+   /* banner web title */
+
+
+h2{}
+
+
+h3{ color: red;
+
+font-size: 23px;
+text-align: center;
+
+
+}
+
+h4{
+  font-family: 'BenchNine', sans-serif;
+  color: red;
+  font-size: 18px;
+  letter-spacing: 0px;
+
+}
+
+
+h5{}
+
+h6{}
+
+
+p{
+
+font-family: 'BenchNine', sans-serif;
+color: #b30000;
+letter-spacing: 1px;
+font-size: 20px;
+padding-left:70px
+}
+
+
+ul{color: red;
+-webkit-backface-visibility: hidden;
+
+}
+
+li{color: #ffffff;
+list-style-type: none;
+text-align: center;
+
+}
+
+#headings{
+  font-family: 'Georgia', serif;
+  font-size: 25px;
+  display: block;
+  margin: 0px auto;
+  padding-left:20px;
+  /*text-align: center;*/
+  color: #b30000;
+
+}
+
+#headings p{
+font-family: 'Times New Roman', serif;
+font-size: 18px;
+}
+
+
+#border{
+  border-bottom: 5px solid #cc5200;
+}
+
+.banner{
+ 
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    color: #cc5200;
+    
+  }
+
+ /* banner web title */
+
+.navbar-default {
+  background: none;
+  border: none;
+  display: inline-block;
+
+  }
+    /* navigation bar */
+
+  .navbar-default .navbar-nav>li>a {
+color: #ffffff;
+
+}
+
+/* navigation bar with menu items */
+
+.navbar-default .navbar-nav>.active>a {
+  color: black  !important;
+  background: white !important;
+}
+
+/* navigation selected active item on menu */
+
+
+
+.dropdown-menu a{
+color: white !important;
+text-align: center !important;
+margin-right: 50px;
+   
+}
+/*Dropdown menu a big screen*/
+
+@media (max-width: 768px) { 
+.dropdown-menu a{
+color: red !important;
+text-align: center !important;
+margin-right: 20px;}
+
+}
+/*Dropdown menu a small screen*/
+
+
+
+.dropdown-menu{
+  font-size: 19px; 
+  background: none;
+
+}
+
+/*Dropdown menu big screen*/
+
+.dropdown a:hover  {
+color:  red !important;
+background: transparent !important;
+
+}
+
+/*Dropdown menu a big screen hover color*/
+
+.navbar a:hover {
+  color: red !important; /* Add a hover color */
+background: transparent !important;
+}
+
+/*navbar menu a big screen hover color*/
+
+
+@media (min-width: 768px) { 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; }
+
+}
+
+/*Dropdown menu a small screen hover color*/
+
+
+.col-xs-6 {
+  padding :0 2px;
+
+
+}
+ /* Content in Row full screen sizing */
+
+#con{
+  width: 90%;
+  padding-left: 20px;
+
+}
+
+/* Content in myphoto full screen sizing */
+
+#myphoto img{
+width: 50%;
+}
+
+@media (max-width: 768px){
+
+.banner{ text-align: left;
+  padding-left: 30px !important;
+
+
+}}
+
+/*Content in banner small screen sizing*/
+
+ @media (max-width: 768px) {
+#myphoto{
+padding-left:45.5px !important;
+
+}}
+
+ /* Content in myphoto small screen sizing */
+
+
+@media (max-width: 768px) {
+#myphoto img{
+width: 270px;
+height: auto;
+
+
+}}
+
+ /* Content in myphoto small screen sizing */
+
+
+ @media (max-width: 768px) {
+.col-xs-6{
+  
+ 
+
+}
+}
+ /* Content in Row small screen sizing */
+
+
+ @media (max-width: 768px) {
+#mytext{
+width: 130% !important;
+padding-left:0px !important;
+}
+}
+ /* Content in mytext small screen sizing */
+
+
+ @media (max-width: 768px) {
+#mytext p{
+font-size: 20px;
+font-weight: 20px;    
+width: 80% !important;
+padding-left:45px !important;
+}
+}
+
+/* Content in p fill form small screen sizing */
+
+ @media (max-width: 768px) {
+#con{width: 70%;
+  padding-left: 0px;
+
+}
+}
+
+/* Content in myphoto full screen sizing */
+
+ @media (max-width: 768px) {
+#measurements{
+width: 95% !important;
+
+}
+}
+ /* Content in measurements in small screen sizing */
+
+ /*form settings start here*/
+
+
+ @media (max-width: 768px) {
+textarea;
+input{
+width: 90% !important;
+height: 300px;
+padding-left: 0px !important;
+
+}
+}
+/* Content in form in small screen sizing */
+
+ @media (max-width: 768px) {
+form{
+padding-left:0px !important;
+}
+}
+/* Content in form in small screen sizing */
+/*form settings ends here*/
+
+.section{
+padding :0px;
+margin-left: 19px;
+color: red;
+font-size: 26px;
+font-family: 'BenchNine', sans-serif;
+
+
+}
+
+.custom{
+
+   padding-left: 0px;
+    padding-right: 100px;
+
+   background-color: black;   
+    
+
+}
+
+
+.container{
+
+text-align: center;
+ 
+font-family: 'BenchNine', sans-serif;
+font-size: 25px;
+ margin-bottom: 135px;   /*this is for dropdown bottom space*/
+
+}
+/*this is for dropdown menu*/
+
+.link a{color: white;
+font-family: 'BenchNine', sans-serif;
+font-size: 25px;
+text-align: center;
+}
+
+/*mytext link color*/
+
+
+.text{
+
+  text-align: center;
+
+  font-family: 'BenchNine', sans-serif;
+  font-size: 22px;
+}
+
+
+#measurements{width:50%;
+ padding-left:
+}
+/* measurement text */
+
+.artist{
+      display:none;
+    }
+/* Field must be filled */
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/*form settings start here*/
+input,
+textarea,
+label {
+    font-family: 'Poppins',
+        sans-serif;
+}
+/*
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;*/
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    color: #b30059;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    color: red;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+    background: #FFF;
+    color: #1b1c1e;
+}
+
+input,
+textarea {
+    color: #33334d;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
+}
+/*form settings ends here*/
+
+
+
+
+.menubottom a{
+
+color:#ffffff;
+padding-left: 100px;
+padding-right: 100px;
+
+opacity: 0.9;
+font-family: 'BenchNine', sans-serif;
+font-size: 18px;
+list-style-type: none;
+-webkit-backface-visibility: hidden;
+
+}
+/* the bottom menu links */
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #ffa366; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+/* icon bar at the bottom  */
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 8%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 8px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 0px; /* Increased font size */
+}
+
+/* icon bar a link at the bottom  */
+
+.icon-bar a:hover {
+  background-color: red; /* Add a hover color */
+
+}
+
+/* hover for icon bar a link at the bottom  */
+
+ /*.active {
+  background-color: white; /* Add an active/current color */
+
+
+.footer{
+background:black; 
+color: #b30000; 
+ padding-left: 0px;
+ padding-right: 0px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 0px;
+-webkit-backface-visibility: hidden;
+}
+/* the footer content*/
+
+
